@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y octave
 RUN apt-get autoclean
 
 
-VOLUME ["/projects"]
+#VOLUME ["/projects"]
 
 #Set up the working directory
 WORKDIR /projects
