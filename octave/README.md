@@ -1,6 +1,6 @@
 # Octave docker
 
-## This docker has been created specifically to run Coursera  Standfor Machine Learning course.
+## This docker has been created specifically to run Coursera  Standford Machine Learning course.
 
 
 
