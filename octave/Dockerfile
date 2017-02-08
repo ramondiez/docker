@@ -8,9 +8,6 @@ RUN apt-get update && apt-get install -y octave
 # House cleaning
 RUN apt-get autoclean
 
-
-#VOLUME ["/projects"]
-
 #Set up the working directory
 WORKDIR /projects
 
