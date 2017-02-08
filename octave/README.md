@@ -13,11 +13,11 @@
 
 
   >* Compile the project with maven :
-   <pre><code>docker run -it --rm \
-       --user=$(id -u) \
+   <pre><code>docker run -it --rm  --user=$(id -u) \
        --env="DISPLAY" \
-       --volume="/etc/group:/etc/group:ro" \      
+       --volume="/etc/group:/etc/group:ro" \
        --volume="/etc/shadow:/etc/shadow:ro" \
        --volume="/etc/sudoers.d:/etc/sudoers.d:ro" \
        --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
-   fara/octave </code></pre>
+       --volume="$(pwd):/projects" \
+   fara/octave</code></pre>
