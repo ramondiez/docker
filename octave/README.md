@@ -20,6 +20,6 @@
        --volume="/etc/sudoers.d:/etc/sudoers.d:ro" \
        --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
        --volume="$(pwd):/projects" \
-   fara/octave</code></pre>
+   fara3/octave</code></pre>
 
   >* **The volumes above defined, allow to run "plot" charts from octave shell**
