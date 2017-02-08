@@ -12,7 +12,7 @@
 ## Running the container
 
 
-  >* Compile the project with maven :
+  >* Command :
    <pre><code>docker run -it --rm  --user=$(id -u) \
        --env="DISPLAY" \
        --volume="/etc/group:/etc/group:ro" \
@@ -21,3 +21,5 @@
        --volume="/tmp/.X11-unix:/tmp/.X11-unix:rw" \
        --volume="$(pwd):/projects" \
    fara/octave</code></pre>
+
+  >* **The volumes above defined, allow to run "plot" charts from octave shell**
